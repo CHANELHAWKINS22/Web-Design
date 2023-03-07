@@ -176,6 +176,25 @@ footer p {
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.image1{
+    width: 500px;
+    height: 500px;
+}
+.imageholder{
+    text-align:center;
+}
+
+.text{
+    text-align:center;
+    margin: 30px 80px;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
