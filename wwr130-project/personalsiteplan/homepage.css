@@ -8,12 +8,16 @@ main{
   grid-column: 1/3;
   font-size: 250%;
   text-align: center;
+  background-color: #55917F;
+  color: white;
  }
 .homeimg {
   width: 70%;
   margin: auto;
 }
-
+.topbar {
+  color: #55917F;
+  }
 header {
   display: grid; 
   grid-template-columns: 200px 1fr;
@@ -55,7 +59,7 @@ footer img {
 .tab button {
   display: block;
   background-color: inherit;
-  color: black;
+  color: #55917F;
   padding: 22px 16px;
   width: 100%;
   border: none;
@@ -67,8 +71,7 @@ footer img {
 
 
 .tab button:hover {
-  background-color: #ddd;
-}
+background-color: #ddd;}
 
 
 .tab button.active {
